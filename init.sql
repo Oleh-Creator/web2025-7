@@ -1,0 +1,6 @@
+CREATE TABLE devices (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  device_name VARCHAR(255) NOT NULL,
+  serial_number VARCHAR(255) NOT NULL UNIQUE,
+  user_name VARCHAR(255) DEFAULT NULL
+);
